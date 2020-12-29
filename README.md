@@ -1,6 +1,6 @@
 # Line Integral Convolution
 
-![Demo](demo.png)
+![Demo](https://raw.githubusercontent.com/alexus37/licplot/master/demo.png)
 
 The Line Integral Convolution (LIC) is an algorithm used to image a vector
 field. Its main advantage is to show in intricate detail the fine
@@ -53,6 +53,6 @@ The basic usage is shown in and a runnable example can be found under `examples/
     plt.show()
 ```
 
-## Forked from https://github.com/aarchiba/scikits-vectorplot
+### Forked from https://github.com/aarchiba/scikits-vectorplot
 
 by Anne Archibald
