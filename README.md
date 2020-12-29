@@ -33,7 +33,7 @@ or install from pypi
 The basic usage is shown in and a runnable example can be found under `examples/lic_demo.py`
 
 ```python
-    from lic import lic_internal
+    from licplot import lic_internal
     import numpy as np
     import matplotlib.pyplot as plt
     # create vector field and kernel
