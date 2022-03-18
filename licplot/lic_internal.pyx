@@ -3,6 +3,7 @@ Algorithm based on "Imaging Vecotr Fields Using Line Integral Convolution"
                    by Brian Cabral and Leith Leedom
 
 """
+
 import numpy as np
 
 
@@ -120,7 +121,7 @@ def line_integral_convolution(
       streamlines. 
       
     """
-
+    print("hi")
     cdef int i,j,k,x,y
     cdef int h,w,kernellen
     cdef int t
