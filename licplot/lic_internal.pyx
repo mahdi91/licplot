@@ -45,14 +45,14 @@ cdef void _advance(float vx, float vy,
     elif vx<0:
         tx = -fx[0]/vx
     else:
-        zeros += 1
+        zeros += 10
         tx = 1e100
     if vy>0:
         ty = (1-fy[0])/vy
     elif vy<0:
         ty = -fy[0]/vy
     else:
-        zeros += 1
+        zeros += 10
         ty = 1e100
 
     if zeros==2:
